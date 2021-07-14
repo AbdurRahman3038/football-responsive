@@ -1,5 +1,5 @@
 
-/* utilities desing   */
+/* common desing   */
 
 body{
     margin: 0;
@@ -12,7 +12,9 @@ main{
     align-items: center;
 }
 
-/* first section design starts from here */
+/*------------------------
+first section design from here
+-------------------------- */
 
 .first-section{
     display: grid;
@@ -73,7 +75,10 @@ main{
    
 }
 
-/* second section design from here */
+
+/*------------------------
+second section design from here
+-------------------------- */
 
 .second-section{
     background-color: white;
@@ -116,11 +121,13 @@ main{
 
 
 
-/* first bonus section starts from here */
+/*------------------------
+first bonus section design 
+starts from here
+-------------------------- */
 
 .sports-blog{
-    background-color: #2D25A0;  
-    
+    background-color: #2D25A0; 
 }
 
 .blog-title{
@@ -156,7 +163,12 @@ main{
     box-shadow: 1px 1px 18px 1px rgb(214, 207, 207);
 }
 
-/* second bonus section starts from here */
+
+/*------------------------
+second bonus section design starts from here
+-------------------------- */
+
+
 .event-sponsor{
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 18px 1px rgb(180, 171, 171);
@@ -192,13 +204,17 @@ main{
 }
 
 
-/* footer part design starts from here */
+/*------------------------
+footer section design from here
+-------------------------- */
+
 .footer-part{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    
 }
 .footer-part .footer-img img{
     width: 400px;
@@ -207,7 +223,7 @@ main{
 
 .fab{
     font-size: 30px;
-    color: rgb(40, 18, 138);
+    color: rgb(135, 135, 138);
     padding: 10px;
 }
 .copyright{
@@ -225,10 +241,12 @@ main{
     main{
         overflow-x: hidden;
     }
+
     .first-section{
         width: 100%;
         display:table-row;
     }
+
     .half-section{
         padding: 30px;
     }
@@ -236,6 +254,7 @@ main{
     .title{
         font-size: 50px;
     }
+
     .far{
         font-size: 20px;
     }
@@ -243,6 +262,7 @@ main{
     .button{
         padding: 10px;
     }
+
 /* second section  */
     .players{
         width: 100%;
@@ -258,6 +278,7 @@ main{
 
 /*bonus sections
 ------------------
+
 blog section  */
 .blogs{
     display: grid;
